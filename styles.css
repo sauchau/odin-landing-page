@@ -85,3 +85,45 @@ li a {
     align-items: center;
     color: white;
 }
+
+.information-section {
+    padding-top: 36px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+#information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-content {
+    display: flex;
+    gap: 48px;
+}
+
+.information-image-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+    gap: 10px;
+}
+
+.information-image {
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.information-sub-text {
+    font-size: 1.1rem;
+    color: grey;
+}
