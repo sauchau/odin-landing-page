@@ -202,3 +202,14 @@ li a {
     background-color: transparent;
     color: white;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
